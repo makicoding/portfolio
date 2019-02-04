@@ -1,0 +1,164 @@
+/* 
+RELATIVE AND ABSOLUTE POSITION ITEMS 
+ON THIS CSS 
+*/
+
+/* ---------------------------------------- */
+/* Body of Page */
+
+body {
+    height: 2000px;
+    /* 
+    Height of the body is determined here
+    so that the user can scroll up the page
+    to see just the background image.
+    */
+
+    padding: 0;
+    margin: 0;
+}
+
+/* ---------------------------------------- */
+/* About Me Outer Container */
+
+.aboutMeOuterContainer {
+    width: 958px;
+
+    padding: 0;
+    border: 1px solid #a1a1a1;
+    margin: 0;
+
+    background-color: #ffffff;
+    
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    transform: translate(-480px, 140px);
+}
+
+/* ---------------------------------------- */
+/* About Me Title */
+
+.aboutMeTitle {
+    width: 956px;
+
+    padding: 0;
+    border: 1px none red;
+    margin: 40px 0px 40px 0px;
+    /* 
+    Change border from none to solid to
+    view border
+    */
+
+    color: silver;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+}
+
+/* ---------------------------------------- */
+/* About Me Inner Container */
+
+.aboutMeInnerContainer {
+    padding: 0px 20px 0px 20px;
+    margin: 0;
+}
+
+.profilePicture {
+    width: 200px;
+    height: 200px;
+    
+    padding: 0;
+    margin: 0px 20px 10px 0px;
+    
+    position: relative;
+    float: left;
+}
+
+.bioText {
+    padding: 0;
+    margin: 0px 0px 60px 0px;
+
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 18px;
+    text-align: justify;
+    line-height: 1.5;
+    
+    position: relative;
+    top: -5px;
+}
+
+/* ---------------------------------------- */
+/* ---------------------------------------- */
+/* MEDIA QUERIES */
+
+/* When Screen Size max-width is 768px (iPad) */
+
+@media screen and (max-width: 768px) {
+
+    body {
+        width: 768px;
+    }
+
+    .aboutMeOuterContainer {
+        width: 728px;
+
+        transform: translate(-364px, 140px);
+    }
+    
+    .aboutMeTitle {
+        width: 728px;
+    
+        font-size: 38px;
+    }
+
+}
+
+/* ---------------------------------------- */
+/* 
+Screen Size Max-Width is 640px
+(About the width of phone in landscape) 
+*/
+
+@media screen and (max-width: 640px) {
+
+    body {
+        width: 640px;
+    }
+
+    .aboutMeOuterContainer {
+        width: 608px;
+
+        transform: translate(-304px, 80px);
+    }
+    
+    .aboutMeTitle {
+        width: 608px;
+
+        margin: 20px 0px 20px 0px;
+    
+        font-size: 31.5px;
+    }
+
+    .aboutMeInnerContainer {
+        padding: 0px 20px 0px 20px;
+        margin: 0;
+    }
+
+    .profilePicture {
+        width: 568px;
+        height: 568px;
+
+        margin: 0px 20px 15px 0px;
+    }
+
+    .bioText {
+        margin: 0px 0px 30px 0px;
+
+        font-size: 16px;
+    }
+
+}
