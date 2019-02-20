@@ -286,14 +286,19 @@ through.  A value of 1 means not see through.
     }
 
     .logoAndMenuBarContainer {
-        width: 375px;
+        width: 370px;
         height: 30px;
 
-        transform: translate(-187.5px, 0px);
+        transform: translate(-175.5px, 0px);
+            /* 
+            translate should actually be (-187.5px, 0px)
+            but is offset by +12px on x-axis so that it will
+            format properly on iPhone Screen
+            */
     }
-
+    
     .logoButton {
-        width: 74px;
+        width: 70px;
         height: 30px;
     
         padding: 20px 0px 0px 5px;
@@ -307,13 +312,12 @@ through.  A value of 1 means not see through.
     }
 
     .menuUl {
-        width: 301px;
+        width: 305px;
         height: 48px;
     
         position: absolute;
-        left: 366px;
+        left: 356px;
         top: -20px;
-
     }
     
     .menuLi a {

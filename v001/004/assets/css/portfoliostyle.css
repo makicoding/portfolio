@@ -138,9 +138,18 @@ body {
 @media screen and (max-width: 980px) {
 
     .portfolioOuterContainer {
-        width: 355px;
-
-        transform: translate(-187.5px, 65px);
+        width: 353px;
+            /*
+            width should actually be 355px but is set
+            to be a little narrower so that it will format
+            properly on iPhone Screen
+            */
+        transform: translate(-177.5px, 62px);
+            /* 
+            translate should actually be (-187.5px, 65px)
+            but is offset by +10px on x-axis and -3px on y-axis
+            so that it will format properly on iPhone Screen
+            */
     }
     
     .portfolioTitle {
