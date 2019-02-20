@@ -44,7 +44,7 @@ body {
 
     padding: 0;
     border: 1px none red;
-    margin: 40px 0px 40px 0px;
+    margin: 40px 0px 30px 0px;
     /* 
     Change border from none to solid to
     view border
@@ -178,93 +178,58 @@ input[type=submit]:active {
 /* ---------------------------------------- */
 /* MEDIA QUERIES */
 
-/* When Screen Size max-width is 768px (iPad) */
+/* When Screen Size Max-Width is 980px */
+/* (375px is viewport width of iPhone X in vertical) */
 
-@media screen and (max-width: 768px) {
-
-    body {
-        width: 768px;
-    }
+@media screen and (max-width: 980px) {
 
     .contactOuterContainer {
-        width: 728px;
+        width: 355px;
 
-        transform: translate(-364px, 140px);
+        transform: translate(-187.5px, 65px);
     }
     
     .contactTitle {
-        width: 728px;
-    
-        font-size: 38px;
-    }
-
-    .contactInnerContainer1 {
-        width: 726px;
-    }
-
-    .contactInnerContainer2 {
-        width: 688px;
-
-        font-size: 18px;
-        
-        background-color: white;
-        /* 
-        Change background color to see the
-        position of contactInnerContainer2
-        */
-    }
-
-    /* Contact Form */
-    input[type=text], textarea {
-        width: 666px;
-    }
-
-}
-
-/* ---------------------------------------- */
-/* 
-Screen Size Max-Width is 640px
-(About the width of phone in landscape) 
-*/
-
-@media screen and (max-width: 640px) {
-
-    body {
-        width: 640px;
-    }
-
-    .contactOuterContainer {
-        width: 608px;
-
-        transform: translate(-304px, 80px);
-    }
-    
-    .contactTitle {
-        width: 608px;
+        width: 355px;
 
         margin: 20px 0px 20px 0px;
     
-        font-size: 31.5px;
+        font-size: 17px;
     }
-    
+
     .contactInnerContainer1 {
-        width: 606px;
+        width: 355px;
+
+        font-size: 14px;
+        line-height: 2;
     }
 
     .contactInnerContainer2 {
-        width: 568px;
+        width: 335px;
 
+        margin: 0px 10px 0px 10px;
+       
         background-color: white;
         /* 
         Change background color to see the
         position of contactInnerContainer2
         */
 
+        font-size: 14px;
     }
 
     /* Contact Form */
     input[type=text], textarea {
-        width: 546px;
+        width: 313px;
+
+        font-size: 14px;
+    }
+    
+    /* Submit Button */
+    input[type=submit] {
+        padding: 10px 20px;
+
+        font-size: 14px;
     }
 
 }

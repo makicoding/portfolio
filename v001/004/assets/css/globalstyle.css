@@ -46,7 +46,7 @@
     font-size: 30px;
     text-align: left;
     text-decoration: none;
-    line-height: .5;
+    line-height: 0.5;
 
     background-color:#2953ca;
 
@@ -273,63 +273,7 @@ through.  A value of 1 means not see through.
 /* ---------------------------------------- */
 /* MEDIA QUERIES */
 
-/* Screen Size Max-Width is 980px */
-/*
-@media screen and (max-width: 980px) {
-    
-    body {
-        width: 980px;
-    }
-    
-    .backgroundImage {
-        width: auto;
-        height: 100%;
-
-        transform: translate(-12%, 0px);        
-    }
-    
-}
-*/
-
-/* Screen Size Max-Width is 768px (iPad) */
-/*
-@media screen and (max-width: 768px) {
-
-    body {
-        width: 768px;
-    }
-
-    .backgroundImage {
-        width: auto;
-        height: 100%;
-
-        transform: translate(-25%, 0px);
-    }
-
-    .logoAndMenuBarContainer {
-        width: 728px;
-    }
-
-    .logoButton {
-        transform: translate(-364px, 0px);  
-    }
-
-    .menuUl {
-        width: 538px;
-
-        transform: translate(-174px, 0px);
-    }
-
-    .menuLi a {
-        padding: 40px 20px 40px 20px;
-    }
-
-}
-*/
-
-/* ---------------------------------------- */
-
-/* Screen Size Max-Width is 980px */
+/* When Screen Size Max-Width is 980px */
 /* (375px is viewport width of iPhone X in vertical) */
 
 @media screen and (max-width: 980px) {
@@ -338,7 +282,7 @@ through.  A value of 1 means not see through.
         width: auto;
         height: 100%;
 
-        transform: translate(0px, 0px);
+        transform: translate(-40px, 0px);
     }
 
     .logoAndMenuBarContainer {
@@ -355,6 +299,7 @@ through.  A value of 1 means not see through.
         padding: 20px 0px 0px 5px;
 
         font-size: 15px;
+        line-height: 0.5;
       
         position: absolute;
         top: -20px;
@@ -375,6 +320,10 @@ through.  A value of 1 means not see through.
         padding: 18px 6px 11px 6px;
 
         font-size: 11px;
+    }
+
+    .menuLi a:hover {
+        height: 30px;
     }
 
     .fFooter {
