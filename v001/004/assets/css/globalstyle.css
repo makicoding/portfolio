@@ -26,6 +26,8 @@
     
     position: fixed;
     top: 20px;
+    left: 50%;
+    transform: translate(-480px, 0px); 
 }
 
 /* ---------------------------------------- */
@@ -50,13 +52,8 @@
 
     cursor: pointer;
     outline: 0;
-  
-    position: fixed;
-    left: 50%;
-    transform: translate(-480px, 0px);  
 
     opacity: 1;
-}
 /* 
 The outline: 0 in the above code removes the 
 blue outline for the button when the button 
@@ -67,6 +64,11 @@ will change how much see-through the button
 becomes.  A value of 0 means completely see
 through.  A value of 1 means not see through. 
 */
+
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
 
 /* Hover over Logo Button */
 .logoButton:hover {
@@ -94,7 +96,7 @@ through.  A value of 1 means not see through.
 
     background-color: #cecece;  
 
-    position: fixed;
+    position: absolute;
     left: 50%;
     transform: translate(-300px, 0px);
 }
