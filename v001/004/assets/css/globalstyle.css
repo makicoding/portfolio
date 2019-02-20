@@ -35,9 +35,9 @@
 
 .logoButton {
     width: 180px;
-    height: 65px;
+    height: 60px;
 
-    padding: 35px 0px 0px 10px;
+    padding: 40px 0px 0px 10px;
     border: 0;
 
     color: white;
@@ -46,7 +46,7 @@
     font-size: 30px;
     text-align: left;
     text-decoration: none;
-    line-height: 1;
+    line-height: .5;
 
     background-color:#2953ca;
 
@@ -274,7 +274,7 @@ through.  A value of 1 means not see through.
 /* MEDIA QUERIES */
 
 /* Screen Size Max-Width is 980px */
-
+/*
 @media screen and (max-width: 980px) {
     
     body {
@@ -289,10 +289,10 @@ through.  A value of 1 means not see through.
     }
     
 }
-
+*/
 
 /* Screen Size Max-Width is 768px (iPad) */
-
+/*
 @media screen and (max-width: 768px) {
 
     body {
@@ -325,60 +325,56 @@ through.  A value of 1 means not see through.
     }
 
 }
-
-/* ---------------------------------------- */
-/* 
-Screen Size Max-Width is 640px
-(About the width of phone in landscape) 
 */
 
-@media screen and (max-width: 640px) {
+/* ---------------------------------------- */
 
-    body {
-        width: 640px;
-    }
+/* Screen Size Max-Width is 980px */
+/* (375px is viewport width of iPhone X in vertical) */
+
+@media screen and (max-width: 980px) {
 
     .backgroundImage {
         width: auto;
         height: 100%;
 
-        transform: translate(-25%, 0px);
+        transform: translate(0px, 0px);
     }
 
     .logoAndMenuBarContainer {
-        width: 640px;
-        height: 60px;
-        
-        position: fixed;
-        top: 0px;
+        width: 375px;
+        height: 30px;
+
+        transform: translate(-187.5px, 0px);
     }
 
     .logoButton {
-        width: 100px;
-        height: 40px;
+        width: 74px;
+        height: 30px;
     
-        padding: 20px 0px 0px 8px;
+        padding: 20px 0px 0px 5px;
 
-        font-size: 16px;
+        font-size: 15px;
       
-        position: fixed;
-        left: 50%;
-        transform: translate(-320px, 0px);  
+        position: absolute;
+        top: -20px;
+        left: -13px; 
     }
 
     .menuUl {
-        width: 538px;
-        height: 58px;
+        width: 301px;
+        height: 48px;
     
-        position: fixed;
-        left: 50%;
-        transform: translate(-220px, 0px);
+        position: absolute;
+        left: 366px;
+        top: -20px;
+
     }
     
     .menuLi a {
-        padding: 21px 15px 21px 15px;
+        padding: 18px 6px 11px 6px;
 
-        font-size: 16px;
+        font-size: 11px;
     }
 
     .fFooter {
@@ -386,23 +382,25 @@ Screen Size Max-Width is 640px
     
         position: fixed;
         left: 0;
-        bottom: 60px;
+        bottom: 90px;
     }
 
     .sFooter {
-        height: 60px;
+        height: 90px;
     }
     
     .sFooterButton1 {
+        font-size: 14px;
+
         position: fixed;
-        left: 50%;
-        transform: translate(-123.3205px, 5px);
+        transform: translate(-78.015px, 10px);
     }
 
     .sFooterButton2 {
+        font-size: 14px;
+
         position: fixed;
-        left: 50%;
-        transform: translate(-67.8205px, 32px);
+        transform: translate(-52.75px, 35px);
     }
     
     .sFooterButton3 {
