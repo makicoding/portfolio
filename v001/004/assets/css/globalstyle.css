@@ -335,11 +335,11 @@ through.  A value of 1 means not see through.
     
         position: fixed;
         left: 0;
-        bottom: 90px;
+        bottom: 80px;
     }
 
     .sFooter {
-        height: 90px;
+        height: 80px;
     }
     
     .sFooterButton1 {
