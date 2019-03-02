@@ -273,10 +273,11 @@ through.  A value of 1 means not see through.
 /* ---------------------------------------- */
 /* MEDIA QUERIES */
 
-/* When Screen Size Max-Width is 980px */
+/* When Screen Size Max-Width is 1030px */
+/* (1024px is viewport width of iPad Pro in vertical) */
 /* (375px is viewport width of iPhone X in vertical) */
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 1030px) {
 
     .backgroundImage {
         width: auto;
