@@ -106,7 +106,7 @@ through.  A value of 1 means not see through.
 }
 
 .menuLi a {
-    padding: 40px 30px 40px 30px;
+    padding: 40px 25px 40px 25px;
 
     display: block;
     color: white;
@@ -319,9 +319,9 @@ through.  A value of 1 means not see through.
     }
     
     .menuLi a {
-        padding: 19px 6px 11px 6px;
+        padding: 18px 6px 12px 6px;
 
-        font-size: 10px;
+        font-size: 9px;
     }
 
     .menuLi a:hover {
