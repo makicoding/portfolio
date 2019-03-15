@@ -2,4 +2,4 @@
 
 ### Maki Hirose - Coding Portfolio
 
-[www.makicoding.com](www.makicoding.com)
+[www.makicoding.com](https://www.makicoding.com)
