@@ -103,17 +103,8 @@ body {
 
     .aboutMeOuterContainer {
         width: 700px;
-            /*
-            width should actually be 355px but is set
-            to be a little narrower so that it will format
-            properly on iPhone Screen
-            */
+
         transform: translate(-351px, 110px);
-            /* 
-            translate should actually be (-187.5px, 65px)
-            but is offset by +10px on x-axis and -3px on y-axis
-            so that it will format properly on iPhone Screen
-            */
     }
 
     .aboutMeTitle {
@@ -124,7 +115,7 @@ body {
         font-size: 34px;
     }
 
-/* ---------- */
+/* -------------------- */
 
 /* When Screen Size Max-Width is 750px */
 /* (375px is viewport width of iPhone X in vertical) */

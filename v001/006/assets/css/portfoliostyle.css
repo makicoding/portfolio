@@ -98,7 +98,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 100;
     font-size: 16px;
-    text-align: justify;
+    text-align: left;
     line-height: 1.5;
    
     position: relative;
@@ -143,9 +143,30 @@ body {
 
 /* When Screen Size Max-Width is 980px */
 /* (1024px is viewport width of iPad Pro in vertical) */
-/* (375px is viewport width of iPhone X in vertical) */
+/* (768px is viewport width of iPad in vertical) */
 
 @media screen and (max-width: 980px) {
+
+    .portfolioOuterContainer {
+        width: 700px;
+
+        transform: translate(-351px, 110px);
+    }
+
+    .portfolioTitle {
+        width: 700px;
+
+        margin: 20px 0px 16px 0px;
+    
+        font-size: 34px;
+    }
+
+/* -------------------- */
+
+/* When Screen Size Max-Width is 750px */
+/* (375px is viewport width of iPhone X in vertical) */
+
+@media screen and (max-width: 750px) {
 
     .portfolioOuterContainer {
         width: 353px;
