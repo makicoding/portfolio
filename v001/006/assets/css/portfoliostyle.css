@@ -83,10 +83,11 @@ body {
 }
 
 .projectImage {
-    width: 200px;
-    height: 200px;
+    width: 198px;
+    height: 198px;
     
     padding: 0;
+    border: 1px solid #a1a1a1;
     margin: 0;
 }
 
