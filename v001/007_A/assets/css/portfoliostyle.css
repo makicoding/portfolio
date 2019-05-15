@@ -139,7 +139,8 @@ body {
 
 /* Selected link */
 .descriptionAnchor:active {
-    color: red;
+    /* color: red; */
+    color: #ffcc00;
 }
 
 /* ---------------------------------------- */

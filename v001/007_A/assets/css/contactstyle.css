@@ -107,7 +107,8 @@ body {
 
 /* Selected link */
 .contactAnchor:active {
-    color: red;
+    /* color: red; */
+    color: #ffcc00;
 }
 
 /* ---------------------------------------- */
@@ -176,7 +177,8 @@ input[type=submit]:hover {
 
 /* Selected Submit Button */
 input[type=submit]:active {
-    background-color: red;
+    /* background-color: red; */
+    background-color: #ffcc00;
 }
 
 /* ---------------------------------------- */
