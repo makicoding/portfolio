@@ -330,7 +330,8 @@ through.  A value of 1 means not see through.
 
         position: absolute;
         top: -20px;
-        transform: translate(-50%, 0px);
+        /* transform: translate(-50%, 0px); */
+        transform: translate(-49.9%, 0px);
     }
     
     .menuLi a {
