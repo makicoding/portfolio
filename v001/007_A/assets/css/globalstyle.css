@@ -325,9 +325,11 @@ through.  A value of 1 means not see through.
     }
     
     .menuLi a {
-        padding: 18px 4px 12px 4px;  
+        /* padding: 18px 4px 12px 4px; */
+        padding: 19px 4px 12px 4px;    
 
-        font-size: 8.6px;
+        /* font-size: 8.6px; */
+        font-size: 10px;
     }
 
     .menuLi a:hover {
@@ -352,14 +354,14 @@ through.  A value of 1 means not see through.
         font-size: 14px;
 
         position: fixed;
-        transform: translate(-78.015px, 10px);
+        transform: translate(-78.015px, 12px);
     }
 
     .sFooterButton2 {
         font-size: 14px;
 
         position: fixed;
-        transform: translate(-52.75px, 35px);
+        transform: translate(-52.75px, 37px);
     }
     
     .sFooterButton3 {

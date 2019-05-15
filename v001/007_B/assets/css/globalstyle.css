@@ -35,7 +35,7 @@
 
 .logoButton {
     width: 180px;
-    height: 98px;
+    height: 100px;
 
     padding: 40px 0px 0px 10px;
     border: 0;
@@ -90,8 +90,8 @@ through.  A value of 1 means not see through.
 /* Menu Bar */
 
 .menuUl {
-    width: 778px;
-    height: 98px;
+    width: 780px;
+    height: 100px;
 
     padding: 0;
     border: 1px solid #a1a1a1;
@@ -204,7 +204,7 @@ through.  A value of 1 means not see through.
 
     position: fixed;
     left: 50%;
-    transform: translate(-100.3125px, 10px);
+    transform: translate(-100.3125px, 7px);
 }
 
 /* Change link color on hover of Email Button */
@@ -237,7 +237,7 @@ through.  A value of 1 means not see through.
 
     position: fixed;
     left: 50%;
-    transform: translate(-67.8205px, 35px);
+    transform: translate(-67.8205px, 32px);
 }
 
 /* Change link color on hover of Tel Button */
@@ -254,7 +254,7 @@ through.  A value of 1 means not see through.
 
     position: fixed;
     left: 50%;
-    transform: translate(-32px, 64px);
+    transform: translate(-32px, 62px);
 }
 
 .linkedInImage {
@@ -273,7 +273,7 @@ through.  A value of 1 means not see through.
 
     position: fixed;
     left: 50%;
-    transform: translate(8px, 64px);
+    transform: translate(8px, 62px);
 }
 
 .gitHubImage {
