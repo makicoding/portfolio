@@ -325,8 +325,8 @@ through.  A value of 1 means not see through.
     }
     
     .menuLi a {
-        /* padding: 18px 4px 12px 4px; */
-        padding: 19px 4px 12px 4px;    
+        padding: 18px 4px 12px 4px;
+        /* padding: 19px 4px 12px 4px; */
 
         /* font-size: 8.6px; */
         font-size: 10px;
