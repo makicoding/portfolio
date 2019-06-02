@@ -1,5 +1,3 @@
-# portfolio
+# Portfolio
 
-### Maki Hirose - Coding Portfolio
-
-### makicoding.com
+[Click here to view portfolio](www.makicoding.com)
