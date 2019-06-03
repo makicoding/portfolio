@@ -116,29 +116,6 @@ body {
     text-decoration: underline;
 }
 
-/* -------------------- */
-/* Hello Video */
-
-.helloVideoDesktop {
-    width: 703px;
-    height: 395.75px;
-
-    border: 1px solid #a1a1a1;
-
-    position: relative;
-    left: 50%;
-    transform: translate(-351.5px, 0px);
-}
-
-.helloVideoIpad {
-    display: none;
-}
-
-.helloVideoMobile {
-    display: none;
-}
-
-
 /* ---------------------------------------- */
 /* Contact Inner Container 2 */
 
@@ -239,23 +216,6 @@ input[type=submit]:active {
         font-size: 16px;
     }
 
-    .helloVideoDesktop {
-        display: none;
-    }
-
-    .helloVideoIpad {
-        display: block;
-
-        width: 643px;
-        height: 362px;
-    
-        border: 1px solid #a1a1a1;
-    
-        position: relative;
-        left: 50%;
-        transform: translate(-327.5px, 0px);    /* Custom positioning */
-    }
-
 /* -------------------- */
 
 /* When Screen Size Max-Width is 750px */
@@ -291,23 +251,6 @@ input[type=submit]:active {
 
         font-size: 14px;
         line-height: 2;
-    }
-
-    .helloVideoIpad {
-        display: none;
-    }
-
-    .helloVideoMobile {
-        display: block;
-
-        width: 322px;
-        height: 182px;
-
-        border: 1px solid #a1a1a1;
-
-        position: relative;
-        left: 50%;
-        transform: translate(-167.5px, 0px);    /* Custom positioning */
     }
 
     .contactInnerContainer2 {
