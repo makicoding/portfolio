@@ -95,28 +95,6 @@ body {
     top: 2px;
 }
 
-/* -------------------- */
-/* Hello Video */
-
-.helloVideoDesktop {
-    width: 702px;
-    height: 395.75px;
-
-    border: 1px solid #a1a1a1;
-
-    position: relative;
-    left: 50%;
-    transform: translate(-351px, 0px);
-}
-
-.helloVideoIpad {
-    display: none;
-}
-
-.helloVideoMobile {
-    display: none;
-}
-
 /* ---------------------------------------- */
 /* ---------------------------------------- */
 /* MEDIA QUERIES */
@@ -139,23 +117,6 @@ body {
         margin: 20px 0px 16px 0px;
     
         font-size: 34px;
-    }
-
-    .helloVideoDesktop {
-        display: none;
-    }
-
-    .helloVideoIpad {
-        display: block;
-
-        width: 642px;
-        height: 362px;
-    
-        border: 1px solid #a1a1a1;
-    
-        position: relative;
-        left: 50%;
-        transform: translate(-322px, 0px);    /* Custom positioning */
     }
 
 /* -------------------- */
@@ -203,23 +164,6 @@ body {
         margin: 0px 0px 30px 0px;
 
         font-size: 12px;
-    }
-
-    .helloVideoIpad {
-        display: none;
-    }
-
-    .helloVideoMobile {
-        display: block;
-
-        width: 322px;
-        height: 182px;
-
-        border: 1px solid #a1a1a1;
-
-        position: relative;
-        left: 50%;
-        transform: translate(-161px, 0px);    /* Custom positioning */
     }
 
 }
