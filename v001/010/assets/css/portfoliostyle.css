@@ -108,6 +108,8 @@ body {
 /* ---------------------------------------- */
 /* Project Description Anchor Style */
 
+/* Description Anchor */
+
 /* Unvisited link */
 .descriptionAnchor:link {
     color: #2953ca;
@@ -128,6 +130,36 @@ body {
 
 /* Selected link */
 .descriptionAnchor:active {
+    /* color: red; */
+    color: #ffcc00;
+    text-decoration: underline;
+}
+
+/* -------------------- */
+/* Description Anchor 2 */
+
+/* Unvisited link */
+.descriptionAnchor2:link {
+    color: #de6114;
+    color: #f06d1b;
+    text-decoration: underline;
+}
+
+/* Visted link */
+.descriptionAnchor2:visited {
+    color: #de6114;
+    color: #f06d1b;
+    text-decoration: underline;
+}
+
+/* Mouse hover link */
+.descriptionAnchor2:hover {
+    color: #ffcc00;
+    text-decoration: underline;
+}
+
+/* Selected link */
+.descriptionAnchor2:active {
     /* color: red; */
     color: #ffcc00;
     text-decoration: underline;
