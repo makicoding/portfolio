@@ -140,14 +140,14 @@ body {
 
 /* Unvisited link */
 .descriptionAnchor2:link {
-    color: #de6114;
+    /* color: #de6114; */
     color: #f06d1b;
     text-decoration: underline;
 }
 
 /* Visted link */
 .descriptionAnchor2:visited {
-    color: #de6114;
+    /* color: #de6114; */
     color: #f06d1b;
     text-decoration: underline;
 }
