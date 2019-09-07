@@ -165,6 +165,34 @@ body {
     text-decoration: underline;
 }
 
+/* -------------------- */
+/* Description Anchor 3 */
+
+/* Unvisited link */
+.descriptionAnchor3:link {
+    color: #15b43a;
+    text-decoration: underline;
+}
+
+/* Visted link */
+.descriptionAnchor3:visited {
+    color: #15b43a;
+    text-decoration: underline;
+}
+
+/* Mouse hover link */
+.descriptionAnchor3:hover {
+    color: #ffcc00;
+    text-decoration: underline;
+}
+
+/* Selected link */
+.descriptionAnchor3:active {
+    /* color: red; */
+    color: #ffcc00;
+    text-decoration: underline;
+}
+
 /* ---------------------------------------- */
 /* ---------------------------------------- */
 /* MEDIA QUERIES */
