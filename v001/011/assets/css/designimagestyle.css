@@ -3,6 +3,10 @@ body {
     background-color: #525659;  /* Same color background as when Chrome browser displays a PDF */
 }
 
+.browserFullWidthContainer {
+    padding: 0px 15px 0px 15px;
+}
+
 .designImage {
     width: 100%;
 }
