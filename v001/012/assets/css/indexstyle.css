@@ -118,6 +118,8 @@ body {
         font-size: 34px;
     }
 
+
+
 }
 
 /* -------------------- */
@@ -151,7 +153,8 @@ body {
     }
 
     .aboutMeInnerContainer {
-        padding: 0px 10px 0px 10px;
+        /* padding: 0px 10px 0px 10px; */
+        padding: 0px 15px 0px 15px;
     }
 
     .profilePicture {
