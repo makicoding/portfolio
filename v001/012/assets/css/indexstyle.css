@@ -118,7 +118,9 @@ body {
         font-size: 34px;
     }
 
-
+    .aboutMeInnerContainer {
+        padding: 0px 15px 0px 15px;
+    }
 
 }
 
