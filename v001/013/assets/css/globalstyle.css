@@ -255,7 +255,8 @@ through.  A value of 1 means not see through.
 
     position: fixed;
     left: 50%;
-    transform: translate(-32px, 62px);
+    /* transform: translate(-32px, 62px);   Use this setting when showing together with GitHub button */
+    transform: translate(-12px, 62px);
 }
 
 .linkedInImage {
