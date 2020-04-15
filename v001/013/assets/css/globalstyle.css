@@ -204,7 +204,8 @@ through.  A value of 1 means not see through.
 
     position: fixed;
     left: 50%;
-    transform: translate(-100.3125px, 7px);
+    /* transform: translate(-100.3125px, 7px); */
+    transform: translate(-107.83px, 7px);
 }
 
 /* Change link color on hover of Email Button */
@@ -366,7 +367,8 @@ through.  A value of 1 means not see through.
         font-size: 14px;
 
         position: fixed;
-        transform: translate(-78.015px, 10px);
+        /* transform: translate(-78.015px, 10px); */
+        transform: translate(-83.865px, 10px);
     }
 
     .sFooterButton2 {
