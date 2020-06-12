@@ -1,0 +1,19 @@
+/* 
+RELATIVE AND ABSOLUTE POSITION ITEMS 
+ON THIS CSS 
+*/
+
+/* ---------------------------------------- */
+/* Body of Page */
+
+body {
+    height: 2500px;
+    /* 
+    Height of the body is determined here
+    so that the user can scroll up the page
+    to see just the background image.
+    */
+
+    padding: 0;
+    margin: 0;
+}
