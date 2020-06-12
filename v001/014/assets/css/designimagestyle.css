@@ -7,6 +7,13 @@ body {
     width: 100%;
 }
 
+.designImage2 {
+    width: 50%;
+
+    position: relative;
+    left: 25%;
+}
+
 /* ---------------------------------------- */
 /* ---------------------------------------- */
 /* MEDIA QUERIES */
@@ -32,4 +39,10 @@ body {
         padding: 0px 15px 0px 15px;
     }
     
+    .designImage2 {
+        width: 80%;
+    
+        position: relative;
+        left: 10%;
+    }
 }
