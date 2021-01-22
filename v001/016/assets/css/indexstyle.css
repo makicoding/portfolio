@@ -1,0 +1,178 @@
+/* 
+RELATIVE AND ABSOLUTE POSITION ITEMS 
+ON THIS CSS 
+*/
+
+/* ---------------------------------------- */
+/* Body of Page */
+
+body {
+    height: 2500px;
+    /* 
+    Height of the body is determined here
+    so that the user can scroll up the page
+    to see just the background image.
+    */
+
+    padding: 0;
+    margin: 0;
+}
+
+/* ---------------------------------------- */
+/* About Me Outer Container */
+
+.aboutMeOuterContainer {
+    width: 960px;
+
+    padding: 0;
+    border: 1px solid #a1a1a1;
+    margin: 0;
+
+    background-color: #ffffff;
+    
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    /* transform: translate(-480px, 140px); */
+    transform: translate(-480px, 99px);
+}
+
+/* ---------------------------------------- */
+/* About Me Title */
+
+.aboutMeTitle {
+    width: 956px;
+
+    padding: 0;
+    border: 1px none red;
+    margin: 40px 0px 30px 0px;
+    /* 
+    Change border from none to solid to
+    view border
+    */
+
+    /* color: #b6b6b6;   */
+    color: #FFAB0A;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+}
+
+/* ---------------------------------------- */
+/* About Me Inner Container */
+
+.aboutMeInnerContainer {
+    padding: 0px 15px 0px 15px;
+    margin: 0;
+}
+
+.profilePicture {
+    width: 210px;
+    height: 210px;
+    
+    padding: 0;
+    margin: 0px 20px 10px 0px;
+
+    border: 1px solid #a1a1a1;
+    
+    position: relative;
+    float: left;
+}
+
+.bioText {
+    padding: 0;
+    margin: 0px 0px 60px 0px;
+
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 16px;
+    text-align: justify;
+    line-height: 1.5;
+    
+    position: relative;
+    top: 2px;
+}
+
+/* ---------------------------------------- */
+/* ---------------------------------------- */
+/* MEDIA QUERIES */
+
+/* When Screen Size Max-Width is 980px */
+/* (1024px is viewport width of iPad Pro in vertical) */
+/* (768px is viewport width of iPad in vertical) */
+
+/* @media screen and (max-width: 980px) { */
+@media screen and (max-width: 1030px) {
+
+    .aboutMeOuterContainer {
+        width: 700px;
+
+        /* transform: translate(-351px, 110px); */
+        transform: translate(-351px, 49px);
+    }
+
+    .aboutMeTitle {
+        width: 700px;
+
+        margin: 20px 0px 16px 0px;
+    
+        font-size: 34px;
+    }
+
+    .aboutMeInnerContainer {
+        padding: 0px 15px 0px 15px;
+    }
+
+}
+
+/* -------------------- */
+
+/* When Screen Size Max-Width is 750px */
+/* (375px is viewport width of iPhone X in vertical) */
+
+@media screen and (max-width: 750px) {
+
+    .aboutMeOuterContainer {
+        width: 353px;
+            /*
+            width should actually be 355px but is set
+            to be a little narrower so that it will format
+            properly on iPhone Screen
+            */
+        /* transform: translate(-177.5px, 62px); */
+            /* 
+            translate should actually be (-187.5px, 65px)
+            but is offset by +10px on x-axis and -3px on y-axis
+            so that it will format properly on iPhone Screen
+            */
+            transform: translate(-177.5px, 49px);
+    }
+    
+    .aboutMeTitle {
+        width: 355px;
+
+        margin: 20px 0px 16px 0px;
+    
+        font-size: 17px;
+    }
+
+    .aboutMeInnerContainer {
+        padding: 0px 15px 0px 15px;
+    }
+
+    .profilePicture {
+        width: 140px;
+        height: 140px;
+
+        margin: 0px 10px 0px 0px;
+    }
+
+    .bioText {
+        margin: 0px 0px 30px 0px;
+
+        font-size: 12px;
+    }
+
+}

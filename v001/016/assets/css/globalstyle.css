@@ -1,0 +1,396 @@
+/* FIXED POSITION ITEMS ON THIS CSS */
+
+/* ---------------------------------------- */
+/* Background Image Container */
+
+.backgroundImage {
+    width: 100%;
+    height: auto;
+
+    padding: 0;
+    margin: 0;
+    
+    position: fixed;
+    top: 0px;
+    left: 0px;
+
+    z-index: -1;
+}
+
+/* ---------------------------------------- */
+/* Logo and Menu Bar Container */
+
+.logoAndMenuBarContainer {
+    width: 960px;
+    height: 100px;
+    
+    position: fixed;
+    /* top: 20px; */
+    left: 50%;
+    transform: translate(-480px, 0px); 
+}
+
+/* ---------------------------------------- */
+/* Logo Button */
+
+.logoButton {
+    width: 180px;
+    height: 100px;
+
+    padding: 40px 0px 0px 10px;
+    border: 0;
+
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: left;
+    text-decoration: none;
+    line-height: 0.5;
+
+    background-color:#2953ca;
+
+    cursor: pointer;
+    outline: 0;
+
+    opacity: 1;
+/* 
+The outline: 0 in the above code removes the 
+blue outline for the button when the button 
+is clicked.
+
+Changing the opactiy in the above code
+will change how much see-through the button
+becomes.  A value of 0 means completely see
+through.  A value of 1 means not see through. 
+*/
+
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+/* Hover over Logo Button */
+.logoButton:hover {
+    color: white;
+    text-decoration: none;
+
+    background-color: #2953ca;
+}
+
+/* Selected Logo Button */
+.logoButton:active {
+    color: white;
+    text-decoration: none;
+
+    background-color: #2953ca;
+}
+
+/* ---------------------------------------- */
+/* Menu Bar */
+
+.menuUl {
+    width: 780px;
+    height: 100px;
+
+    padding: 0;
+    border: 1px solid #a1a1a1;
+    margin: 0;
+
+    list-style-type: none;
+    overflow: hidden;
+
+    /* background-color: #cecece; */
+    /* background-color: #a9a9a9; */
+    background-color: #c1c1c1; 
+    /* background-color: #b6b6b6; */
+
+    position: absolute;
+    left: 50%;
+    transform: translate(-300px, 0px);
+}
+
+.menuLi {
+    float: right;
+}
+
+.menuLi a {
+    padding: 37px 20px 40px 20px;
+
+    display: block;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Change link color on hover */
+.menuLi a:hover {
+    height: 98px;
+
+    color: white;
+    background-color: #191919;
+}
+
+/* ---------------------------------------- */
+/* First Footer */
+
+.fFooter {
+    /* width: 100%; */
+    width: 960px;
+    height: 10px;
+
+    color: white;
+    text-align: center;
+
+    background-color: #2953ca;
+
+    position: fixed;
+    /* left: 0; */
+    bottom: 100px;
+    /* 
+    This part is if I want to customize the 
+    width and positioning of First Footer later.
+    */
+    left: 50%;
+    transform: translate(-50%, 0);
+
+}
+
+/* ---------------------------------------- */
+/* Second Footer Container */
+
+.sFooter {
+    /* width: 100%; */
+    width: 960px;
+    height: 100px;
+
+    /* background-color: #cecece; */
+    /* background-color: #a9a9a9; */
+    background-color: #c1c1c1; 
+    /* background-color: #b6b6b6; */
+
+    position: fixed;
+    /* left: 0; */
+    bottom: 0px;
+    /* 
+    This part is if I want to customize the 
+    width and positioning of Second Footer later.
+    */
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+/* ---------------------------------------- */
+/* Email Button */
+
+.sFooterButton1 {
+    height: 20px;
+
+    padding: 0;
+    border: 0;
+    margin: 0;
+
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+
+    background: none;
+
+    cursor: pointer;
+    outline: 0;
+
+    position: fixed;
+    left: 50%;
+    /* transform: translate(-100.3125px, 7px); */
+    transform: translate(-107.83px, 7px);
+}
+
+/* Change link color on hover of Email Button */
+.sFooterButton1:hover {
+    color: #2953ca;
+    text-decoration: none;
+}
+
+/* ---------------------------------------- */
+/* Tel Button */
+
+.sFooterButton2 {
+    height: 20px;
+
+    padding: 0;
+    border: 0;
+    margin: 0;
+
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+
+    background: none;
+
+    cursor: pointer;
+    outline: 0;
+
+    position: fixed;
+    left: 50%;
+    transform: translate(-67.8205px, 32px);
+}
+
+/* Change link color on hover of Tel Button */
+.sFooterButton2:hover {
+    color: #2953ca;
+    text-decoration: none;
+}
+
+/* ---------------------------------------- */
+/* LinkedIn Button */
+
+.sFooterButton3 {
+    cursor: pointer;
+
+    position: fixed;
+    left: 50%;
+    /* transform: translate(-32px, 62px);   Use this setting when showing together with GitHub button */
+    transform: translate(-12px, 62px);
+}
+
+.linkedInImage {
+    width: 24px;
+    height: 24px;
+
+    padding: 0;
+    margin: 0;
+}
+
+/* ---------------------------------------- */
+/* GitHub Button */
+
+.sFooterButton4 {
+    cursor: pointer;
+
+    position: fixed;
+    left: 50%;
+    transform: translate(8px, 62px);
+}
+
+.gitHubImage {
+    width: 24px;
+    height: 24px;
+    
+    padding: 0;
+    margin: 0;
+}
+
+/* ---------------------------------------- */
+/* ---------------------------------------- */
+/* MEDIA QUERIES */
+
+/* When Screen Size Max-Width is 1030px */
+/* (1024px is viewport width of iPad Pro in vertical) */
+/* (375px is viewport width of iPhone X in vertical) */
+
+@media screen and (max-width: 1030px) {
+
+    .backgroundImage {
+        width: auto;
+        height: 100%;
+
+        transform: translate(-40px, 0px);
+    }
+
+    .logoAndMenuBarContainer {
+        width: 100%;
+        height: 50px;
+
+        transform: translate(-50%, 0px);
+    }
+    
+    .logoButton {
+        width: 75px;
+        height: 50px;
+    
+        padding: 20px 0px 0px 5px;
+
+        font-size: 15px;
+        line-height: 0.5;
+      
+        position: absolute;
+        /* top: -20px; */
+        left: -0.5px;
+
+        z-index: +1;
+    }
+
+    .menuUl {
+        width: 100%;
+        height: 50px;
+
+        position: absolute;
+        /* top: -20px; */
+        /* transform: translate(-50%, 0px); */
+        transform: translate(-49.9%, 0px);
+    }
+    
+    .menuLi a {
+        height: 50px;
+
+        /* padding: 18px 4px 12px 4px; */
+        padding: 17px 4px 12px 4px;    
+
+        /* font-size: 8.6px; */
+        font-size: 10px;
+    }
+
+    .menuLi a:hover {
+        height: 50px;
+    }
+
+    .fFooter {
+        width: 100%;
+        height: 5px;
+    
+        position: fixed;
+        left: 0;
+        bottom: 80px;
+        transform: translate(0, 0);
+    }
+
+    .sFooter {
+        width: 100%;
+        height: 80px;
+    
+        /* background-color: #a9a9a9; */
+    }
+    
+    .sFooterButton1 {
+        font-size: 14px;
+
+        position: fixed;
+        /* transform: translate(-78.015px, 10px); */
+        transform: translate(-83.865px, 10px);
+    }
+
+    .sFooterButton2 {
+        font-size: 14px;
+
+        position: fixed;
+        transform: translate(-52.75px, 35px);
+    }
+    
+    .sFooterButton3 {
+        display: none;
+    }
+    
+    .sFooterButton4 {
+        display: none;
+    }
+    
+}

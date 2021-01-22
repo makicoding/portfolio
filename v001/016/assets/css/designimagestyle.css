@@ -1,0 +1,50 @@
+body {
+    /* background-color: #a1a1a1; */
+    background-color: #525659;  /* Same color background as when Chrome browser displays a PDF */
+}
+
+.designImage {
+    width: 100%;
+}
+
+.designImage2 {
+    width: 50%;
+
+    position: relative;
+    left: 25%;
+}
+
+/* ---------------------------------------- */
+/* ---------------------------------------- */
+/* MEDIA QUERIES */
+
+/* When Screen Size Max-Width is 980px */
+/* (1024px is viewport width of iPad Pro in vertical) */
+/* (768px is viewport width of iPad in vertical) */
+
+@media screen and (max-width: 980px) {
+
+
+
+}
+
+/* -------------------- */
+
+/* When Screen Size Max-Width is 750px */
+/* (375px is viewport width of iPhone X in vertical) */
+
+@media screen and (max-width: 750px) {
+
+    .browserFullWidthContainer {
+        padding: 0px 15px 0px 15px;
+    }
+    
+    .designImage2 {
+        /* width: 80%; */
+        width: 100%;
+    
+        position: relative;
+        /* left: 10%; */
+        left: 0%;
+    }
+}

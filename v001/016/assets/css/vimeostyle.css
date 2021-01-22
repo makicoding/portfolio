@@ -1,0 +1,82 @@
+/* 
+RELATIVE AND ABSOLUTE POSITION ITEMS 
+ON THIS CSS 
+*/
+
+/* ---------------------------------------- */
+/* Hello Video */
+
+.helloVideoDesktop {
+    width: 702px;
+    height: 395.75px;
+
+    border: 1px solid #a1a1a1;
+
+    position: relative;
+    left: 50%;
+    transform: translate(-351px, 0px);
+}
+
+.helloVideoIpad {
+    display: none;
+}
+
+.helloVideoMobile {
+    display: none;
+}
+
+/* ---------------------------------------- */
+/* ---------------------------------------- */
+/* MEDIA QUERIES */
+
+/* When Screen Size Max-Width is 980px */
+/* (1024px is viewport width of iPad Pro in vertical) */
+/* (768px is viewport width of iPad in vertical) */
+
+/* @media screen and (max-width: 980px) { */
+@media screen and (max-width: 1030px) {
+
+    .helloVideoDesktop {
+        display: none;
+    }
+
+    .helloVideoIpad {
+        display: block;
+
+        width: 642px;
+        height: 362px;
+    
+        border: 1px solid #a1a1a1;
+    
+        position: relative;
+        left: 50%;
+        transform: translate(-322px, 0px);    /* Custom positioning */
+    }
+
+}
+
+/* -------------------- */
+
+/* When Screen Size Max-Width is 750px */
+/* (375px is viewport width of iPhone X in vertical) */
+
+@media screen and (max-width: 750px) {
+
+    .helloVideoIpad {
+        display: none;
+    }
+
+    .helloVideoMobile {
+        display: block;
+
+        width: 322px;
+        height: 182px;
+
+        border: 1px solid #a1a1a1;
+
+        position: relative;
+        left: 50%;
+        transform: translate(-161px, 0px);    /* Custom positioning */
+    }
+
+}
