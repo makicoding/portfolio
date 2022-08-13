@@ -97,6 +97,23 @@ body {
     top: 2px;
 }
 
+.bioText2 {
+    padding: 0px 115px 0px 115px;
+    margin: 0px 0px 60px 0px;
+
+    color: black;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    /* font-weight: 100; */
+    font-family: sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    text-align: justify;
+    line-height: 1.5;
+    
+    position: relative;
+    top: 2px;
+}
+
 /* ---------------------------------------- */
 /* ---------------------------------------- */
 /* MEDIA QUERIES */
@@ -172,6 +189,12 @@ body {
     }
 
     .bioText {
+        margin: 0px 0px 30px 0px;
+
+        font-size: 12px;
+    }
+
+    .bioText2 {
         margin: 0px 0px 30px 0px;
 
         font-size: 12px;
